@@ -1,7 +1,7 @@
 var btnTranslate= document.querySelector("#btn-translate")
 var inputText=document.querySelector("#txt-input")
 var outputText=document.querySelector("#output")
-var server="https://api.funtranslations.com/translate/mandalorian.json"
+var server="https://api.funtranslations.com/translte/mandalorian.json"
 
 function translateText(text){
     return server+"?"+"text="+text
